@@ -1,0 +1,12 @@
+.header {
+  max-width: 98vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin: 5px;
+
+  font-size: 1.75em;
+}

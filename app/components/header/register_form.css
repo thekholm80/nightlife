@@ -1,0 +1,54 @@
+.register_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.register_form__title {
+  font-size: 1.5em;
+}
+
+.register_form__message {
+  color: red;
+  font-weight: bold;
+}
+
+.register_form__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: inherit;
+}
+
+.register_form__form input {
+  margin: 5px;
+}
+
+.register_form__form input::placeholder {
+  text-align: center;
+}
+
+.register_form__form input[type=submit] {
+  color: rgb(198, 105, 11);
+  font-weight: bold;
+}
+
+.register_form__button_row {
+  display: flex;
+  justify-content: flex-end;
+
+  width: inherit;
+}
+
+.register_form__button {
+  margin: 5px;
+
+  color: rgb(198, 105, 11);
+  font-weight: bold;
+  cursor: pointer;
+}

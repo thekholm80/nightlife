@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: inherit;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.search__form {
+  display: flex;
+}
+
+.search__form input[type=submit] {
+  margin-left: 5px;
+
+  color: rgb(198, 105, 11);
+  font-weight: bold;
+}
+
+.search__form input[type=text]::placeholder {
+  font-weight: bold;
+  text-align: center;
+}
+
+.search__yelp {
+  margin-top: 5px;
+}
+
+.search a img {
+  width: 5em;
+
+  margin-top: -0.5em;
+}

@@ -1,0 +1,40 @@
+.bar_details {
+  display: flex;
+
+  width: 60vw;
+
+  margin-top: 2em;
+}
+
+.bar_details img {
+  width: 30vw;
+  height: 30vw;
+}
+
+.bar_details__info {
+  display: flex;
+  flex-direction: column;
+
+  width: 30vw;
+  height: 30vh;
+
+  margin-left: 1em;
+}
+
+.bar_details__info-indent {
+  margin-left: 2em;
+}
+
+.bar_details__button_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bar_details__button_row-button {
+  text-align: center;
+  color: rgb(198, 105, 11);
+  font-weight: bold;
+
+  cursor: pointer;
+}

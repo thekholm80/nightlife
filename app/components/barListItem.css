@@ -1,0 +1,44 @@
+.bar_list_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 30vw;
+
+  margin: 5px;
+  padding: 1em;
+
+  background-color: rgb(244, 242, 239);
+}
+
+.bar_list_item-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 98vw;
+
+  margin: 5px;
+  padding: 1em;
+
+  background-color: rgb(234, 232, 229);
+}
+
+.bar_list_item img {
+  max-width: 20vw;
+  max-height: 20vh;
+}
+
+.bar_list_item__attending {
+  color: rgb(198, 105, 11);
+  font-weight: bold;
+}
+
+.bar_list_item__message {
+  color: red;
+  font-weight: bold;
+
+  margin-top: 2em;
+}
